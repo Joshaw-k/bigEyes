@@ -27,10 +27,10 @@ const Header = () => {
         <img src={logo} alt="logo.png" className="w-full" />
       </div>
       <div className="flex flex-col-reverse gap-y-3 gap-x-2 md:flex-row">
-        <button className="bg-transparent py-2 px-12 font-thin rounded-full text-lg text-white border-4 border-white transition hover:text-black hover:bg-white duration-300 ease-in">
+        <button className="bg-transparent font-urbanist py-2 px-12 font-thin rounded-full text-lg text-white border-4 border-white transition hover:text-black hover:bg-white duration-300 ease-in">
           English
         </button>
-        <button className="bg-white py-3 px-12 font-bold rounded-full text-lg  transition hover:text-white hover:bg-black duration-300 ease-in">
+        <button className="bg-white py-3 px-12 font-urbanist font-bold rounded-full text-lg  transition hover:text-white hover:bg-black duration-300 ease-in">
           Buy now
         </button>
       </div>
