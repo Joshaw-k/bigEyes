@@ -8,7 +8,7 @@ import WalletError from "./pages/WalletError";
 import Initialization from "./pages/Initialization";
 import ImportWallet from "./pages/ImportWallet";
 import ValidationError from "./pages/ValidationError";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./Components/ScrollToTop";
 import ImportSuccess from "./pages/ImportSuccess";
 
 function App() {
