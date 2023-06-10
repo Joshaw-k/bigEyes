@@ -1,10 +1,14 @@
 import logo from "../assets/logo-desktop-header.svg";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row m-auto justify-between px-16 py-8 gap-y-5">
-      <div className="w-48 md:w-56 h-auto md:h-auto lg:w-64 m-auto lg:m-0">
+      <Link
+        to="/"
+        className="w-48 md:w-56 h-auto md:h-auto lg:w-64 m-auto lg:m-0"
+      >
         <img src={logo} alt="logo.png" className="w-full" />
-      </div>
+      </Link>
       <div className="grid font-urbanist grid-cols-2 lg:grid-cols-4 gap-x-3 gap-y-5 text-center">
         <div>
           <h3 className="font-bold text-xl">About us</h3>

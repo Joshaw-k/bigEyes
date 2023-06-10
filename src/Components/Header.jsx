@@ -3,6 +3,7 @@ import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { TbBrandLinktree } from "react-icons/tb";
 import { FaTelegramPlane } from "react-icons/fa";
 import logo from "../assets/logo-desktop-header.svg";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="flex bg-[#F8C0C6] items-center gap-x-6 md:gap-x-2 py-8 md:py-3 px-10 md:px-8 justify-between">
@@ -23,9 +24,9 @@ const Header = () => {
           <BsDiscord className="text-white text-3xl transition hover:text-black duration-300 ease-in cursor-pointer" />
         </div>
       </div>
-      <div className="w-24 h-auto">
+      <Link to="/" className="w-24 h-auto">
         <img src={logo} alt="logo.png" className="w-full" />
-      </div>
+      </Link>
       <div className="flex flex-col-reverse gap-y-3 gap-x-2 md:flex-row">
         <button className="bg-transparent font-urbanist py-2 px-12 font-thin rounded-full text-lg text-white border-4 border-white transition hover:text-black hover:bg-white duration-300 ease-in">
           English
