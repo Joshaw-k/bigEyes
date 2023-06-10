@@ -31,7 +31,7 @@ const Header = () => {
         <button className="bg-transparent font-urbanist py-2 px-12 font-thin rounded-full text-lg text-white border-4 border-white transition hover:text-black hover:bg-white duration-300 ease-in">
           English
         </button>
-        <button className="bg-white py-3 px-12 font-urbanist font-bold rounded-full text-lg  transition hover:text-white hover:bg-black duration-300 ease-in">
+        <button className="bg-white py-3 px-8 font-urbanist font-bold rounded-full text-lg  transition hover:text-white hover:bg-black duration-300 ease-in">
           Buy now
         </button>
       </div>

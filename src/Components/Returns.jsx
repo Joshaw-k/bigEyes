@@ -106,7 +106,7 @@ const Returns = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute w-28 scale-y-[1.3] -bottom-20 left-24 md:left-60 lg:left-80">
+              <div className="absolute w-28 scale-y-[1.3] -bottom-20 left-20 md:left-60 lg:left-80">
                 <img src={chat_1} alt="" className="w-full" />
                 <div className="absolute bottom-3 left-4 text-center leading-3 ">
                   <h3 className="font-titan">$0.0006</h3>
