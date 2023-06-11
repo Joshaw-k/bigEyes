@@ -21,7 +21,7 @@ const ConnectWallet = () => {
                 key={index}
               >
                 <div className="flex gap-x-5 items-center">
-                  <div className="w-3 h-3 rounded-full bg-[#A6E8FE]"></div>
+                  <div className="w-3 h-3 rounded-full bg-[#FFFF]"></div>
                   <h5 className="text-[#5B5B5B] font-semibold font-urbanist">
                     {title}
                   </h5>
